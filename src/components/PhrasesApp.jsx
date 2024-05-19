@@ -39,7 +39,7 @@ const addToFavorites = () => {
   return (
     <div className="container">
     <div className="phrases-app">
-      <h1 className="app-heading">Quote.</h1>
+      <h1 className="app-heading">Says Who?</h1>
       <i className="bx bxs-heart fav-icon" onClick={toggleFavorites}></i>
       <div className="quote">
         <i className="bx bxs-quote-alt-left left-quote"></i>
