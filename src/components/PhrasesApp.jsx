@@ -66,7 +66,7 @@ const addToFavorites = () => {
               <button className="btn-close">{toggleFavorites}
               <i className="bx bx-x"></i>
               </button>
-              <div className="fav-quote" key={index}>
+              {favorites.map((favQuote, index) =>  <div className="fav-quote" key={index}>
                 <div className="fav-quote-delete">
                   <i className="bx bx-x-circle" onClick={() => {
                     const updatedFavorites = favorites.filter((item, i) => i !== index)
@@ -78,7 +78,8 @@ const addToFavorites = () => {
                   <div className="fav-quote-text">{favQuote.text}</div>
                   <div className="fav-quote-author">{favQuote.author}</div>
                 </div>
-              </div>
+              </div> )}
+             
             </div>
           )}
         </div>
