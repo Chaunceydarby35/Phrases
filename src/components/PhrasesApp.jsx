@@ -4,7 +4,7 @@ const PhrasesApp = () => {
   return (
     <div className="container">
         <div className="phrases-app">
-            <h1 className="app-heading">Phrase</h1>
+            <h1 className="app-heading">Phrases</h1>
             <i className="bx bxs-heart fav-icon"></i>
             <div className="phrase">
                 <i className="bx bxs-quote-alt-left left-quote"></i>
