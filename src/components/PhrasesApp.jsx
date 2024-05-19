@@ -61,6 +61,16 @@ const addToFavorites = () => {
                 Add to Favorites
                 </button>
             </div>
+            <div className="favorites">
+              <button className="btn-close">{toggleFavorites}
+              <i className="bx bx-x"></i>
+              </button>
+              <div className="fav-quote" key={index}>
+                <div className="fav-quote-delete">
+                  <i className="bx"></i>
+                </div>
+              </div>
+            </div>
         </div>
     </div>
   )
