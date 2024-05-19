@@ -40,9 +40,9 @@ const addToFavorites = () => {
     <div className="container">
         <div className="phrases-app">
             <h1 className="app-heading">Phrases</h1>
-            <i className="bx bxs-heart fav-icon"></i>
+            <i className="bx bxs-heart fav-icon" onClick={toggleFavorites}></i>
             <div className="phrase">
-                <i className="bx bxs-quote-alt-left left-quote" onClick={toggleFavorites}></i>
+                <i className="bx bxs-quote-alt-left left-quote"></i>
                 <p className="quote-text">{quote.text}</p>
                 <p className="quote-author">{quote.author}</p>
                 <i className="bx bxs-quote-alt-right right-quote"></i>
@@ -61,6 +61,7 @@ const addToFavorites = () => {
                 Add to Favorites
                 </button>
             </div>
+            {showFavorites && (   
             <div className="favorites">
               <button className="btn-close">{toggleFavorites}
               <i className="bx bx-x"></i>
@@ -79,6 +80,7 @@ const addToFavorites = () => {
                 </div>
               </div>
             </div>
+          )}
         </div>
     </div>
   )
