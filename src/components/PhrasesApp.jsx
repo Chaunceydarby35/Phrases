@@ -55,7 +55,7 @@ const addToFavorites = () => {
       </div>
       <div className="buttons">
         <button className="btn btn-new" onClick={fetchNewQuote}>
-          New Quote
+          New Phrase
         </button>
         <button className="btn btn-fav" onClick={addToFavorites}>
           Add to Favorites
