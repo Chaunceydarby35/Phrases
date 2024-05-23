@@ -27,6 +27,7 @@ Welcome to Says Who! This simple web application allows users to generate random
 
 ### Credits:
 - Phrases sourced from reputable sources such as famous authors, philosophers, and public figures.
+- Code and Create Youtube for help and inspiration. 
 
 ### Feedback:
 If you have any feedback, suggestions, or issues to report, please feel free to reach out to Chauncey Darby at Chaunceydrb@gmail.com.
